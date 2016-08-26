@@ -1,0 +1,20 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+it is an intermediary between the working directory and the repository, it allows files to be added one at a time
+and reviewed before commits are made
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+by using git diff --staged, can see the changes which you are about to make before you commit
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+when creating parallel versions of the program, when creating different language versions,
+when creating an experimental feature which may not work or be useful
+
+
+How do the diagrams help you visualize the branch structure?
+
+Show the parent commits of each commit
